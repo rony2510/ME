@@ -16,7 +16,7 @@ body{
 .flex-container{
 	display: flex;
 	flex-direction: row;
-    padding-top: 3px;
+    padding-top: 2px;
 }
 .flex-container>div{
 	width: 250px;
@@ -29,8 +29,8 @@ body{
 .profile-image{
 	/*padding: 20px;*/
 	/*margin: auto;*/
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 	border-radius: 100px;
 }
 
@@ -51,11 +51,11 @@ body{
     color: white;
     text-align: center;
     border-radius: 200px;
-    padding: 5px 15px;
+    /*padding: 5px 15px;*/
 
     position: absolute;
     z-index: 1;
-    top: 150px;
+    top: 100px;
     right: 100%;
 }
 .tooltiprony:hover .tooltiptext{
@@ -73,7 +73,7 @@ body{
     /*margin: 5px 0px;*/
     width: 60%;
     height: 1.5px;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .des1{
     background:  #9400D3;
