@@ -1,0 +1,95 @@
+body{
+	background-color: #1d2834;
+	/*height: 1000px;*/
+}
+
+
+/*div center*/
+.center{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+
+/*profile flex*/
+.flex-container{
+	display: flex;
+	flex-direction: row;
+}
+.flex-container>div{
+	width: 250px;
+	margin: auto;
+	/*background-color: cyan;*/
+}
+
+
+/*profile image*/
+.profile-image{
+	/*padding: 20px;*/
+	/*margin: auto;*/
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+}
+
+
+/* design */
+.design{
+    position: relative;
+	height: px;
+    /*margin: 30px 30px;*/
+}
+.des1,.des2,.des3,.des4,.des5,.des6,.des7{
+    /*margin: 5px 0px;*/
+    width: 250px;
+    height: 3px;
+    border-radius: 50px;
+}
+.des1{
+    background:  #9400D3;
+    position: relative;
+    animation: doit 3s infinite;
+    animation-direction: alternate;
+}
+.des2{
+    background:  #4B0082;
+    position: relative;
+    animation: doit 3.5s infinite;
+    animation-direction: alternate;
+}
+.des3{
+    background:  #0000FF;
+    position: relative;
+    animation: doit 4s infinite;
+    animation-direction: alternate;
+}
+.des4{
+    background:  #00FF00;
+    position: relative;
+    animation: doit 4.5s infinite;
+    animation-direction: alternate;
+}
+.des5{
+    background:  #FFFF00;
+    position: relative;
+    animation: doit 5s infinite;
+    animation-direction: alternate;
+}
+.des6{
+    background:  #FF7F00;
+    position: relative;
+    animation: doit 5.5s infinite;
+    animation-direction: alternate;
+}
+.des7{
+    background:  #FF0000;
+    position: relative;
+    animation: doit 6s infinite;
+    animation-direction: alternate;
+}
+@keyframes  doit{
+    0%{left: 0%;top: 0px;height: px;width: px;}
+    50%{left: 80%;top: 0px;height: px;width: px;}
+    100%{left: 0%;top: 0px;height: px;width: px;}
+}

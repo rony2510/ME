@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- BOOTSTRAP 4 -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>ME~</title>
+
+</head>
+<body>
+
+
+<!-- profile -->
+  <div class="container">
+    <div class="flex-container">
+      <div>
+        <img src="me.jpg" class="profile-image">
+      </div>
+      <div>
+        <a href="index" style="text-decoration:none;"><p style="color:white;font-size:50px;">ME</p></a>
+      </div>
+      <div style="border:1px solid #28585b;border-radius: 50px;">
+        <p style="font-family: 'Pacifico', cursive;
+          font-family: 'Sacramento', cursive;color: white;font-size: 40px;text-align: center;">hajong rony</p>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- qoute -->
+  <div class="container">
+    <p style="font-family: 'Pacifico', cursive;
+      font-family: 'Sacramento', cursive;color: white;font-size: 50px;text-align: center;">a walk to remember</p>
+  </div>
+
+
+<!-- design -->
+  <div class="container">
+    <div class="design">
+      <div class="des1"></div>
+      <div class="des2"></div>
+      <div class="des3"></div>
+      <div class="des4"></div>
+      <div class="des5"></div>
+      <div class="des6"></div>
+      <div class="des7"></div>
+    </div>
+  </div>
+
+  
+<!-- article -->
+  <div class="container" style="height:200px;">
+    
+  </div>
+
+  <div class="container">
+    <hr style="border-top: 1px solid white;margin-top:;width:70%;">
+  </div>
+
+
+<!-- bottom -->
+  <div class="container">
+    <p style="font-family: 'Pacifico', cursive;font-family: 'Sacramento', cursive;text-align:center;
+    color: purple;font-size: 30px;">coffee,walk and you</p>
+  </div>
+
+</body>
+</html>
