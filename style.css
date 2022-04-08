@@ -16,6 +16,7 @@ body{
 .flex-container{
 	display: flex;
 	flex-direction: row;
+    padding-top: 3px;
 }
 .flex-container>div{
 	width: 250px;
@@ -34,6 +35,34 @@ body{
 }
 
 
+
+/*tooltiprony*/
+.tooltiprony{
+    position: relative;
+    display: inline-block;
+    border:1px solid #28585b;
+    border-radius: 50px;
+    /*border-bottom: 1px dotted purple;*/
+}
+.tooltiprony .tooltiptext{
+    visibility: hidden;
+    width: 250%;
+    background-color: #28585b;
+    color: white;
+    text-align: center;
+    border-radius: 200px;
+    padding: 5px 15px;
+
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    right: 100%;
+}
+.tooltiprony:hover .tooltiptext{
+    visibility: visible;
+}
+
+
 /* design */
 .design{
     position: relative;
@@ -42,8 +71,8 @@ body{
 }
 .des1,.des2,.des3,.des4,.des5,.des6,.des7{
     /*margin: 5px 0px;*/
-    width: 250px;
-    height: 3px;
+    width: 60%;
+    height: 1.5px;
     border-radius: 50px;
 }
 .des1{
@@ -61,35 +90,35 @@ body{
 .des3{
     background:  #0000FF;
     position: relative;
-    animation: doit 4s infinite;
+    animation: doit 3s infinite;
     animation-direction: alternate;
 }
 .des4{
     background:  #00FF00;
     position: relative;
-    animation: doit 4.5s infinite;
+    animation: doit 3.5s infinite;
     animation-direction: alternate;
 }
 .des5{
     background:  #FFFF00;
     position: relative;
-    animation: doit 5s infinite;
+    animation: doit 3s infinite;
     animation-direction: alternate;
 }
 .des6{
     background:  #FF7F00;
     position: relative;
-    animation: doit 5.5s infinite;
+    animation: doit 3.5s infinite;
     animation-direction: alternate;
 }
 .des7{
     background:  #FF0000;
     position: relative;
-    animation: doit 6s infinite;
+    animation: doit 3s infinite;
     animation-direction: alternate;
 }
 @keyframes  doit{
     0%{left: 0%;top: 0px;height: px;width: px;}
     50%{left: 80%;top: 0px;height: px;width: px;}
-    100%{left: 0%;top: 0px;height: px;width: px;}
+    100%{left: 0%;top: 0px;height: px;width: 20%;}
 }
