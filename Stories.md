@@ -8,3 +8,5 @@
 - [rainbow](https://rony2510.github.io/ME/diary/rainbow.html)
 - [tour Sagardari](https://rony2510.github.io/ME/diary/tourSagardari.html)
 - [movies i love](https://rony2510.github.io/ME/diary/movies-i-love.html)
+- [all you need is love](https://rony2510.github.io/ME/diary/all-you-need-is-love.html)
+- [tour Dhaka](https://rony2510.github.io/ME/diary/tourdhaka.html)
