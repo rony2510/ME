@@ -1,0 +1,20 @@
+{
+  "en": {
+    "title": "Welcome to My Website",
+    "description": "This website demonstrates how to switch between multiple languages using JavaScript and JSON.",
+    "sectionTitle": "About This Demo",
+    "description2": "You can dynamically change the text on this page without reloading. The selected language is saved automatically.",
+    "buttonText": "Click Me",
+    "footerTitle": "Contact",
+    "footerText": "If you like this example, share it with your friends!"
+  },
+  "bn": {
+    "title": "আমার ওয়েবসাইটে স্বাগতম",
+    "description": "এই ওয়েবসাইটটি দেখায় কীভাবে জাভাস্ক্রিপ্ট এবং JSON ব্যবহার করে একাধিক ভাষার মধ্যে পরিবর্তন করা যায়।",
+    "sectionTitle": "এই ডেমো সম্পর্কে",
+    "description2": "আপনি এই পৃষ্ঠার টেক্সট রিফ্রেশ ছাড়াই পরিবর্তন করতে পারেন। নির্বাচিত ভাষা স্বয়ংক্রিয়ভাবে সংরক্ষিত হয়।",
+    "buttonText": "ক্লিক করুন",
+    "footerTitle": "যোগাযোগ",
+    "footerText": "আপনি যদি এই উদাহরণটি পছন্দ করেন, আপনার বন্ধুদের সাথে শেয়ার করুন!"
+  }
+}
