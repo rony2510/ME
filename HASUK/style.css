@@ -1,5 +1,6 @@
 body {
-    background: rgb(5, 14, 1) ;
+    /* background: rgb(5, 14, 1) ; */
+    background-color:  #1d2834;
     padding-top: 100px;
     min-height: 200vh;
 }
