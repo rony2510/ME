@@ -1,0 +1,81 @@
+body {
+    padding-top: 100px;
+    min-height: 200vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* pathin */
+#pathin {
+    height: 400px; /* adjust between 300–500px */
+    position: relative;
+    margin: 50px 0;
+}
+
+.path-animation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Containers */
+.top-lines, .bottom-lines {
+    position: absolute;
+    width: 100%;
+    height: 50%; 
+}
+
+/* Starting positions */
+.top-lines { top: 0; }
+.bottom-lines { bottom: 0; }
+
+.line {
+    position: absolute;
+    height: 6px; /* thickness of the horizontal line */
+    width: 100%;
+    opacity: 0;
+}
+
+/* START POSITIONS */
+.from-left  { left: -300px; }
+.from-right { right: -300px; }
+
+/* ANIMATION */
+.animate-left {
+    animation: slideFromLeft 2s forwards;
+}
+
+.animate-right {
+    animation: slideFromRight 2s forwards;
+}
+
+@keyframes slideFromLeft {
+    from { transform: translateX(-300px); opacity: 0; }
+    to   { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideFromRight {
+    from { transform: translateX(300px); opacity: 0; }
+    to   { transform: translateX(0); opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+

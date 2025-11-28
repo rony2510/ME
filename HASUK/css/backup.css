@@ -1,0 +1,77 @@
+body{
+    background: rgba(0, 0, 255, 0.5); /* blue with 50% opacity */
+    padding-top: 100px; /* equal to navbar height */
+}
+
+
+
+/* navbar */
+.navbar {
+  height: 200px;
+  display: flex;
+  align-items: center; /* centers content vertically */
+}
+
+.navbar-collapse {
+  /* background-color: #21262d !important; */
+}
+
+
+
+
+
+
+/* Make page take full height */
+    /* html, body {
+      height: 100%;
+      margin: 0;
+    } */
+
+    /* Flexbox layout for sticky footer */
+    /* body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #0d1117;
+      color: white;
+    } */
+
+    main {
+      flex: 1; /* push footer to bottom */
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: #21262d;
+      color: white;
+      padding: 40px 0;
+      border-top: 1px solid #444;
+    }
+
+    .footer-divider {
+      border-left: 2px solid #555;
+      height: 100%;
+    }
+
+    .footer-left, .footer-right {
+      padding: 0 20px;
+    }
+
+    @media (max-width: 767px) {
+      .footer-divider {
+        display: none;
+      }
+      .footer-left, .footer-right {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+
+
+
+
+
+
+
+
+
