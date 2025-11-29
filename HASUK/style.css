@@ -1,5 +1,6 @@
 body {
-    background: rgb(5, 14, 1) ;
+    /* background: rgb(5, 14, 1) ; */
+    background-color:  #1d2834;
     padding-top: 100px;
     min-height: 200vh;
 }
@@ -91,8 +92,9 @@ body {
     justify-items: center;
     align-items: center;
     max-width: 1600px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: center;
+    margin-top: 100px;
 }
 
 .grid-item-4 {
@@ -156,6 +158,97 @@ body {
 
 
 
+
+
+
+
+
+/* mission */
+
+.two-sections {
+  display: flex;
+  gap: 50px;
+  max-width: 1600px;
+  margin: auto;
+  padding: 50px 5px;
+  align-items: flex-start;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+/* LEFT SECTION */
+.left-section {
+  flex: 2;
+  color: white;
+}
+
+/* RIGHT SECTION (scrollable) */
+.right-section {
+  flex: 1;
+  background: #003333;
+  color: white;
+  padding: 20px;
+  max-height: 400px;        /* HEIGHT SO SCROLL WORKS */
+  overflow-y: auto;         /* ENABLE VERTICAL SCROLL */
+  /* border-radius: 10px; */
+}
+
+/* SEPARATOR LINE */
+.separator {
+  width: 2px;
+  background: white;
+  height: 100%;
+}
+
+
+/* Make "Quick Links" fixed inside the box */
+.right-section h3 {
+  position: sticky;
+  top: 0;
+  background: #003333;     /* same background so it blends */
+  /* padding: 10px 0; */
+  z-index: 10;
+}
+
+
+/* LINKS */
+.right-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.right-section ul li {
+  margin-bottom: 12px;
+}
+
+.right-section a {
+  text-decoration: none;
+  color: #a5ffe3;
+  font-weight: bold;
+}
+
+.right-section a:hover {
+  text-decoration: underline;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .two-sections {
+    flex-direction: column;
+  }
+
+  .separator {
+    display: none; /* hide line on mobile */
+  }
+
+  .right-section {
+    max-height: 250px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
 
 
 
